@@ -21,3 +21,28 @@
     font-size: 25px;
   }
 }
+.owl-carousel .owl-stage {
+  display: flex;
+  align-items: center;
+}
+
+.owl-carousel .caption {
+  text-align: center;
+}
+
+.onhRet {
+  filter: grayscale(100%);
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+}
+
+.onhRet:hover {
+  filter: none;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.7s;
+  cursor: pointer;
+}
+
+.register-btn {
+  padding: 10px 35px;
+}
