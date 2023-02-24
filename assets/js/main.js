@@ -15,15 +15,15 @@ $(document).ready(function(){
     responsive : {
       0 : {
               items:1,
-              margin:2,
+              margin:0,
       },
       480 : {
               items:2,
-              margin:5
+              margin:2
             },
       768 : {
               items:4,
-              margin:10
+              margin:5
       }
     },
 });
