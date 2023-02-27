@@ -1,10 +1,8 @@
 $(document).ready(function(){
   $(".owl-carousel").owlCarousel({
-    loop:true,
-    autoplay:true,
-    items:4,
+    responsiveBaseElement: 'body',
+       loop:true,
     align :'center',
-    margin:10,
     animateOut: 'slideOutDown',
     animateIn: 'flipInX',
     stagePadding:30,
@@ -19,11 +17,13 @@ $(document).ready(function(){
       },
       480 : {
               items:2,
-              margin:2
+              margin:2,
+                autoplay:true,
             },
       768 : {
               items:4,
-              margin:5
+              margin:5,
+                autoplay:true,
       }
     },
 });
